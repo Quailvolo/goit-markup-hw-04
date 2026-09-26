@@ -6,7 +6,7 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 /* Block 1: logo + text. The gap to block 2 is set here via margin-right, not via gap on the container */

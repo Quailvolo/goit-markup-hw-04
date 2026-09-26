@@ -53,12 +53,16 @@
   color: #404bbf;
 }
 
+.nav-link.active {
+  color: #404bbf;
+}
+
 /* Underline for the active page link, purely decorative pseudo-element */
 .nav-link.active::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 0;
   width: 100%;
   height: 4px;
   border-radius: 2px;
